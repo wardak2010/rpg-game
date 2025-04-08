@@ -36,7 +36,9 @@
   "resources":[
     {"id":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
     {"id":{"name":"spr_classrooms","path":"sprites/spr_classrooms/spr_classrooms.yy",},},
+    {"id":{"name":"spr_hallways","path":"sprites/spr_hallways/spr_hallways.yy",},},
     {"id":{"name":"t_classrooms","path":"tilesets/t_classrooms/t_classrooms.yy",},},
+    {"id":{"name":"t_hallways","path":"tilesets/t_hallways/t_hallways.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
