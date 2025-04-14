@@ -41,6 +41,7 @@
     {"id":{"name":"spr_exit","path":"sprites/spr_exit/spr_exit.yy",},},
     {"id":{"name":"spr_hallways","path":"sprites/spr_hallways/spr_hallways.yy",},},
     {"id":{"name":"spr_lounge","path":"sprites/spr_lounge/spr_lounge.yy",},},
+    {"id":{"name":"spr_schoolsign","path":"sprites/spr_schoolsign/spr_schoolsign.yy",},},
     {"id":{"name":"spr_weightroom","path":"sprites/spr_weightroom/spr_weightroom.yy",},},
     {"id":{"name":"t_classrooms","path":"tilesets/t_classrooms/t_classrooms.yy",},},
     {"id":{"name":"t_doors","path":"tilesets/t_doors/t_doors.yy",},},
