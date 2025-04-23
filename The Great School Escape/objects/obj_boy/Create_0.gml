@@ -1,12 +1,12 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 46C5B11C
-/// @DnDArgument : "expr" "1"
-/// @DnDArgument : "var" "movespeed"
-movespeed = 1;
+/// @DnDHash : 563386EA
+/// @DnDArgument : "var" "global.score"
+global.score = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 67403F4E
-/// @DnDArgument : "var" "notebook_count"
-notebook_count = 0;
+/// @DnDHash : 48E6379F
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "movespeed"
+movespeed = 1;
