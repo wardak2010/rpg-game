@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 18FD0C53
+/// @DnDHash : 130934D3
 /// @DnDApplyTo : other
 with(other) instance_destroy();
 
@@ -32,5 +32,5 @@ if(notebook_count == 0){	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDParent : 3878D716
 	/// @DnDArgument : "expr" "1"
 	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "obj_game.coins"
-	obj_game.coins += 1;}
+	/// @DnDArgument : "var" "obj_game.collected_items"
+	obj_game.collected_items += 1;}

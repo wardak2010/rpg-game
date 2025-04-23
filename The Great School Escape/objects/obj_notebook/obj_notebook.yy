@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_notebook",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_boy","path":"objects/obj_boy/obj_boy.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_notebook",
   "overriddenProperties":[],
