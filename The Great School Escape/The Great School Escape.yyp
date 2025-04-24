@@ -65,7 +65,6 @@
     {"id":{"name":"spr_locker","path":"sprites/spr_locker/spr_locker.yy",},},
     {"id":{"name":"spr_lounge","path":"sprites/spr_lounge/spr_lounge.yy",},},
     {"id":{"name":"spr_notebook","path":"sprites/spr_notebook/spr_notebook.yy",},},
-    {"id":{"name":"spr_notebook2","path":"sprites/spr_notebook2/spr_notebook2.yy",},},
     {"id":{"name":"spr_schoolsign","path":"sprites/spr_schoolsign/spr_schoolsign.yy",},},
     {"id":{"name":"spr_teacher_down","path":"sprites/spr_teacher_down/spr_teacher_down.yy",},},
     {"id":{"name":"spr_tileblock","path":"sprites/spr_tileblock/spr_tileblock.yy",},},

@@ -40,7 +40,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"spr_boy_down",
     "path":"sprites/spr_boy_down/spr_boy_down.yy",
