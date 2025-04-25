@@ -34,6 +34,12 @@ draw_set_alpha(l1696CEA2_0 / $ff);
 /// @DnDHash : 7D2ADABA
 /// @DnDArgument : "x" "30"
 /// @DnDArgument : "y" "20"
+<<<<<<< HEAD
 /// @DnDArgument : "caption" ""Notebooks: " "
 /// @DnDArgument : "var" "global.score"
 draw_text(30, 20, string("Notebooks: " ) + string(global.score));
+=======
+/// @DnDArgument : "caption" ""Notebooks: ""
+/// @DnDArgument : "var" "global.score"
+draw_text(30, 20, string("Notebooks: ") + string(global.score));
+>>>>>>> 7b70e557b6c59707d3e3631aec63b7e7fd7a8e17

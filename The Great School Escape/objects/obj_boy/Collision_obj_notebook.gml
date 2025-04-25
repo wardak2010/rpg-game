@@ -24,6 +24,7 @@ if(notebook_count == 0){	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDArgument : "ypos" "768"
 	/// @DnDArgument : "objectid" "obj_end"
 	/// @DnDSaveInfo : "objectid" "obj_end"
+<<<<<<< HEAD
 	instance_create_layer(160, 768, "Instances", obj_end);}
 
 /// @DnDAction : YoYo Games.Common.Set_Global
@@ -32,3 +33,14 @@ if(notebook_count == 0){	/// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDArgument : "value" "global.score + 1"
 /// @DnDArgument : "var" "global.score"
 global.score = global.score + 1;
+=======
+	instance_create_layer(160, 768, "Instances", obj_end);
+
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 64E91E4F
+	/// @DnDParent : 3878D716
+	/// @DnDArgument : "value" "global.score + 1"
+	/// @DnDArgument : "var" "global.score"
+	global.score = global.score + 1;}
+>>>>>>> 7b70e557b6c59707d3e3631aec63b7e7fd7a8e17
