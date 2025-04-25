@@ -3,24 +3,24 @@
 /// @DnDHash : 32E24099
 /// @DnDArgument : "x1" "20"
 /// @DnDArgument : "y1" "10"
-/// @DnDArgument : "x2" "220"
+/// @DnDArgument : "x2" "300"
 /// @DnDArgument : "y2" "45"
 /// @DnDArgument : "col1" "$FF9999FF"
 /// @DnDArgument : "col2" "$FF9999FF"
 /// @DnDArgument : "col3" "$FF9999FF"
 /// @DnDArgument : "col4" "$FF9999FF"
 /// @DnDArgument : "fill" "1"
-draw_rectangle_colour(20, 10, 220, 45, $FF9999FF & $FFFFFF, $FF9999FF & $FFFFFF, $FF9999FF & $FFFFFF, $FF9999FF & $FFFFFF, 0);
+draw_rectangle_colour(20, 10, 300, 45, $FF9999FF & $FFFFFF, $FF9999FF & $FFFFFF, $FF9999FF & $FFFFFF, $FF9999FF & $FFFFFF, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprites_Stacked
 /// @DnDVersion : 1
 /// @DnDHash : 3F0A3EC0
-/// @DnDArgument : "x" "10"
-/// @DnDArgument : "y" "10"
-/// @DnDArgument : "sprite" "spr_notebook"
+/// @DnDArgument : "x" "150"
+/// @DnDArgument : "y" "15"
+/// @DnDArgument : "sprite" "spr_notebook2"
 /// @DnDArgument : "number" "global.score"
-/// @DnDSaveInfo : "sprite" "spr_notebook"
-var l3F0A3EC0_0 = sprite_get_width(spr_notebook);var l3F0A3EC0_1 = 0;for(var l3F0A3EC0_2 = global.score; l3F0A3EC0_2 > 0; --l3F0A3EC0_2) {	draw_sprite(spr_notebook, 0, 10 + l3F0A3EC0_1, 10);	l3F0A3EC0_1 += l3F0A3EC0_0;}
+/// @DnDSaveInfo : "sprite" "spr_notebook2"
+var l3F0A3EC0_0 = sprite_get_width(spr_notebook2);var l3F0A3EC0_1 = 0;for(var l3F0A3EC0_2 = global.score; l3F0A3EC0_2 > 0; --l3F0A3EC0_2) {	draw_sprite(spr_notebook2, 0, 150 + l3F0A3EC0_1, 15);	l3F0A3EC0_1 += l3F0A3EC0_0;}
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
@@ -34,6 +34,6 @@ draw_set_alpha(l1696CEA2_0 / $ff);
 /// @DnDHash : 7D2ADABA
 /// @DnDArgument : "x" "30"
 /// @DnDArgument : "y" "20"
-/// @DnDArgument : "caption" ""Notebooks: " string(global.score)"
+/// @DnDArgument : "caption" ""Notebooks: " "
 /// @DnDArgument : "var" "global.score"
-draw_text(30, 20, string("Notebooks: " string(global.score)) + string(global.score));
+draw_text(30, 20, string("Notebooks: " ) + string(global.score));
