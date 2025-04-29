@@ -1,12 +1,8 @@
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 46C5B11C
-/// @DnDArgument : "expr" "1"
-/// @DnDArgument : "var" "movespeed"
 movespeed = 1;
 
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 5D896B18
-/// @DnDArgument : "var" "global.score"
 global.score = 0;
+
+speed_x = 4;  // Default horizontal speed
+speed_y = 4;  // Default vertical speed
+speed_multiplier = 1;  // Normal speed
+

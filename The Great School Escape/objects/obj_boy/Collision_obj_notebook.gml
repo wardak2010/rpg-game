@@ -4,6 +4,22 @@
 /// @DnDApplyTo : other
 with(other) instance_destroy();
 
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 604801E5
+/// @DnDArgument : "soundid" "Collect_Item_Sound_Effect"
+/// @DnDSaveInfo : "soundid" "Collect_Item_Sound_Effect"
+audio_play_sound(Collect_Item_Sound_Effect, 0, 0, 1.0, undefined, 1.0);
+
+/// @DnDAction : YoYo Games.Particles.Effect
+/// @DnDVersion : 1
+/// @DnDHash : 2F3E8CB9
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "type" "6"
+/// @DnDArgument : "color" "$FF99FFFF"
+effect_create_below(6, x + 0, y + 0, 0, $FF99FFFF & $ffffff);
+
 /// @DnDAction : YoYo Games.Instances.Instance_Get_Count
 /// @DnDVersion : 1
 /// @DnDHash : 46FD61F3

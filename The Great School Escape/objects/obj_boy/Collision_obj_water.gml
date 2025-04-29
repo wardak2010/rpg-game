@@ -1,0 +1,1 @@
+speed_multiplier = 0.5; // Reduce speed when colliding with water
