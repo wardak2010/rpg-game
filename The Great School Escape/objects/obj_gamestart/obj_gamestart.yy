@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gamemenu",
-  "eventList":[],
+  "%Name":"obj_gamestart",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":32,"eventType":9,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_gamemenu",
+  "name":"obj_gamestart",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_gamestart",
+    "path":"sprites/spr_gamestart/spr_gamestart.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
