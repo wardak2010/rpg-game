@@ -32,7 +32,9 @@ notebook_count = instance_number(obj_notebook);
 /// @DnDVersion : 1
 /// @DnDHash : 3878D716
 /// @DnDArgument : "var" "notebook_count"
-if(notebook_count == 0){	/// @DnDAction : YoYo Games.Instances.Create_Instance
+if(notebook_count == 0)
+{
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 664FAADF
 	/// @DnDParent : 3878D716
@@ -40,7 +42,8 @@ if(notebook_count == 0){	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDArgument : "ypos" "768"
 	/// @DnDArgument : "objectid" "obj_end"
 	/// @DnDSaveInfo : "objectid" "obj_end"
-	instance_create_layer(160, 768, "Instances", obj_end);}
+	instance_create_layer(160, 768, "Instances", obj_end);
+}
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1

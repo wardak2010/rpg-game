@@ -10,9 +10,12 @@ notebook_count = instance_number(obj_notebook);
 /// @DnDVersion : 1
 /// @DnDHash : 4DDD4076
 /// @DnDArgument : "var" "notebook_count"
-if(notebook_count == 0){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+if(notebook_count == 0)
+{
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 1D09843D
 	/// @DnDApplyTo : {obj_door}
 	/// @DnDParent : 4DDD4076
-	with(obj_door) instance_destroy();}
+	with(obj_door) instance_destroy();
+}

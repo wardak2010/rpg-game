@@ -20,7 +20,12 @@ draw_rectangle_colour(20, 10, 600, 45, $FF9999FF & $FFFFFF, $FF9999FF & $FFFFFF,
 /// @DnDArgument : "sprite" "spr_notebook2"
 /// @DnDArgument : "number" "global.score"
 /// @DnDSaveInfo : "sprite" "spr_notebook2"
-var l3F0A3EC0_0 = sprite_get_width(spr_notebook2);var l3F0A3EC0_1 = 0;for(var l3F0A3EC0_2 = global.score; l3F0A3EC0_2 > 0; --l3F0A3EC0_2) {	draw_sprite(spr_notebook2, 0, 150 + l3F0A3EC0_1, 15);	l3F0A3EC0_1 += l3F0A3EC0_0;}
+var l3F0A3EC0_0 = sprite_get_width(spr_notebook2);
+var l3F0A3EC0_1 = 0;
+for(var l3F0A3EC0_2 = global.score; l3F0A3EC0_2 > 0; --l3F0A3EC0_2) {
+	draw_sprite(spr_notebook2, 0, 150 + l3F0A3EC0_1, 15);
+	l3F0A3EC0_1 += l3F0A3EC0_0;
+}
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
